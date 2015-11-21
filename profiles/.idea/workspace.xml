@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77caf509-0d5f-48fb-a367-ed9a22fd8900" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/forms.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/templates/notes.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/admin.py" afterPath="$PROJECT_DIR$/users/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/templates/base.html" afterPath="$PROJECT_DIR$/users/templates/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/templates/home.html" afterPath="$PROJECT_DIR$/users/templates/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/urls.py" afterPath="$PROJECT_DIR$/users/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/views.py" afterPath="$PROJECT_DIR$/users/views.py" />
     </list>
     <ignored path="profiles.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,7 +41,7 @@
             <state vertical-scroll-proportion="0.0">
               <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
               <folding>
-                <element signature="e#0#32#0" expanded="true" />
+                <marker date="1448132743560" expanded="true" signature="0:52" placeholder="import ..." />
               </folding>
             </state>
           </provider>
@@ -415,7 +408,13 @@
       <option name="project" value="LOCAL" />
       <updated>1448131180111</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="С формой регистрации">
+      <created>1448133021884</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1448133021884</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -484,7 +483,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="'new test'" />
     <MESSAGE value="Новые модели" />
-    <option name="LAST_COMMIT_MESSAGE" value="Новые модели" />
+    <MESSAGE value="С формой регистрации" />
+    <option name="LAST_COMMIT_MESSAGE" value="С формой регистрации" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -600,7 +600,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <marker date="1448132743560" expanded="true" signature="0:52" placeholder="import ..." />
           </folding>
         </state>
       </provider>
