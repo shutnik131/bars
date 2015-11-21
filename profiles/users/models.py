@@ -5,6 +5,7 @@ from django.contrib.auth.models import User, UserManager
 # Create your models here.
 
 class Author(User):
+
     objects = UserManager()
 
 
