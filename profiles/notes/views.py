@@ -11,10 +11,8 @@ def register(request):
     if request.method == "POST":
         form = UserCreationForm(request.POST)
         if form.is_valid():
-            user = form.cleaned_data
-            author = Author(user)
-            author.save()
-            HttpResponseRedirect("/notes/")
+            new_user = Author(form.save())
+            return HttpResponseRedirect("/notes/")
     else:
         form = UserCreationForm()
     return render_to_response('register.html', {'form': form}, RequestContext(request))
