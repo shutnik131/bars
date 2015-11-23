@@ -2,16 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77caf509-0d5f-48fb-a367-ed9a22fd8900" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bars_test_example/notes/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/../bars_test_example/notes/migrations/0001_initial.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bars_test_example/notes/templates/base.html" afterPath="$PROJECT_DIR$/../bars_test_example/notes/templates/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bars_test_example/db.sqlite3" afterPath="$PROJECT_DIR$/../bars_test_example/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bars_test_example/notes/forms.py" afterPath="$PROJECT_DIR$/../bars_test_example/notes/forms.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bars_test_example/notes/templates/home.html" afterPath="$PROJECT_DIR$/../bars_test_example/notes/templates/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bars_test_example/notes/models.py" afterPath="$PROJECT_DIR$/../bars_test_example/notes/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bars_test_example/bars_test_example/urls.py" afterPath="$PROJECT_DIR$/../bars_test_example/bars_test_example/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bars_test_example/notes/urls.py" afterPath="$PROJECT_DIR$/../bars_test_example/notes/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bars_test_example/notes/views.py" afterPath="$PROJECT_DIR$/../bars_test_example/notes/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bars_test_example/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../bars_test_example/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="profiles.iws" />
@@ -60,8 +50,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/notes/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.5659341">
-              <caret line="57" column="38" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.521978">
+              <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
               <folding>
                 <element signature="e#0#57#0" expanded="true" />
               </folding>
@@ -393,7 +383,13 @@
       <option name="project" value="LOCAL" />
       <updated>1448262469492</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Добавлена форма заметки&#10;">
+      <created>1448269526407</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1448269526407</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView">
@@ -409,6 +405,7 @@
     <frame x="-1" y="26" width="1282" height="999" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32752612" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963374" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -423,7 +420,6 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329849" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -852,8 +848,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/notes/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.5659341">
-          <caret line="57" column="38" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.521978">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
           <folding>
             <element signature="e#0#57#0" expanded="true" />
           </folding>
