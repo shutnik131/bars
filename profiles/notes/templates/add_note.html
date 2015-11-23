@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block title %}Заметки{% endblock %}
+{% block content %}
+{% if form.errors %}
+<p style="color: red">
+    Исправьте следующие ошибки!
+</p>
+{% endif %}
+<form action="" method="post">
+    {% csrf_token %}
+    <table>
+        {{ form.as_table }}
+    </table>
+    <input type="submit" value="Сохранить">
+</form>
+{% endblock %}
