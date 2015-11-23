@@ -5,7 +5,7 @@ from .models import Tag, Note
 class NoteForm(forms.ModelForm):
     class Meta:
         model = Note
-        exclude = ['pub_date']
+        fields = ['head_line', 'categories', 'body_text', 'favorite', 'tags']
 
 
 class TagForm(forms.ModelForm):

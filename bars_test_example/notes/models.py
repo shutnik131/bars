@@ -1,4 +1,5 @@
 from django.db import models
+from django.contrib.auth.models import User
 
 
 # Create your models here.
@@ -29,6 +30,7 @@ class Note(models.Model):
     tags = models.ManyToManyField(Tag, verbose_name='Тэги')
     categories = models.CharField('Категория', max_length=4, choices=category_list, default='note')
     pub_date = models.DateField(auto_now_add=True)
+    author = models.OneToOneField(User, verbose_name='Автор')
 
     def __str__(self):
         return self.head_line

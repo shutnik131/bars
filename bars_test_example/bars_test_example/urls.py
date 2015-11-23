@@ -15,8 +15,12 @@ Including another URLconf
 """
 from django.conf.urls import include, url
 from django.contrib import admin
+from notes import views
 
 urlpatterns = [
+    url(r'^addnote/', views.add_note, name='addnote'),
+    url(r'^$', views.index_view, name='index'),
+    url(r'^$', views.home_view, name='home'),
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^', include('notes.urls')),
+    url(r'^notes/', include('notes.urls', namespace='notes')),
 ]

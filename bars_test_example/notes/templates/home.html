@@ -1,1 +1,37 @@
-{% extends 'base.html' %}
+{% extends "base.html" %}
+{% block styles %}
+{{ block.super }}
+{% load staticfiles %}
+<link rel="stylesheet" href="{% static 'css/new.css' %}" />
+{% endblock %}
+{% block body %}
+{% if messages %}
+<div class="container">
+    <ul class="messages">
+    {% for message in messages %}
+    <li id="message_{{ forloop.counter }}"
+        {% if message.tags %} class="alert alert-{{message.tags}}"{% endif %}>
+        {{message}}
+    </li>
+    {% endfor %}
+    </ul>
+</div>
+{% endif %}
+<div class="jumbotron">
+	<h1 align='center'>Мои заметки</h1>
+	<div class='container' style='padding-top:10px'>
+		<form action="" method="post">{% csrf_token %}
+		<div class="row">
+			<div class="col-md-6">
+				<input type='text' id='id_username' name='username' class='form-control' placeholder='Логин' />
+			</div>
+			<div class='col-md-6'>
+				<input type='password' id='id_password' name='password' class='form-control' placeholder='Пароль' />
+			</div>
+		</div>
+		<br>
+		<input type="submit" value="Войти" class='btn btn-primary btn-lg btn-block' />
+		</form>
+	</div>
+</div>
+{% endblock body %}
